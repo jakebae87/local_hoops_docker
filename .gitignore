@@ -1,1 +1,22 @@
 ai-server/
+# 환경 설정
+.env
+
+# 빌드 결과물
+frontend@*
+dist/
+build/
+
+# 인증서/캐시/임시 디렉토리
+data/
+test.jpg
+
+# Vue CLI 및 npm 캐시
+vue-cli-service
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
